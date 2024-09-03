@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: none !important;
+}
+
+.font-style {
+  font-family: "Baskervville SC", serif;
+}
+
+.home-header-main .home-main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.home-header-main .home-main-nav .left-main ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+.home-header-main .home-main-nav .left-main ul li {
+  font-weight: 500;
+}
+.home-header-main .home-main-nav .left-main ul .drop-down-main {
+  display: none;
+  padding: 1rem;
+  position: absolute;
+  z-index: 9;
+  background-color: orange;
+}
+.home-header-main .home-main-nav .left-main ul .drop-down-main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.home-header-main .home-main-nav .left-main .home-main-ul .mans-li:hover .drop-down-main {
+  display: block;
+}
+.home-header-main .home-main-nav .logo-main img {
+  max-width: 200px;
+  transform: scale(1.5);
+}
+.home-header-main .home-main-nav .nav-right ul {
+  display: flex;
+  margin-bottom: 0;
+  list-style-type: none;
+  gap: 2rem;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .offcanvas-header {
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images .img-container {
+  max-height: 100px;
+  max-width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images .img-container img {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .group-img-box {
+  padding: 1rem;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .group-img-box img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+}
+.home-header-main .home-main-nav .nav-right .offcanvas .contact-us-box {
+  padding: 1rem;
+}
+
+.sales-first-section {
+  background-color: #FFF8DB;
+  padding-bottom: 4rem;
+}
+.sales-first-section .first-offer-box {
+  padding: 5px;
+  background-color: orange;
+}
+.sales-first-section .first-offer-box p {
+  font-size: 18px;
+  margin-bottom: 0rem;
+}
+.sales-first-section .img-first-row {
+  padding: 1rem 1rem;
+}
+.sales-first-section .img-first-row .img-box-main {
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+}
+.sales-first-section .img-first-row .img-box-main img {
+  transition: all 1s ease;
+  height: 400px;
+  width: 300px;
+}
+.sales-first-section .img-first-row .img-box-main img:hover {
+  scale: 1.1;
+}
+.sales-first-section .img-first-row .img-box-main .text-on-img-box {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  color: black;
+  bottom: 8rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  display: none;
+  transition: all 2s ease;
+}
+.sales-first-section .img-first-row .img-box-main .text-on-img-box p {
+  margin-bottom: 3px;
+  transition: all 2s ease;
+}
+.sales-first-section .img-first-row .img-box-main:hover .text-on-img-box {
+  display: block;
+}
+.sales-first-section .latest-fashion-head {
+  padding-top: 3rem;
+}
+.sales-first-section .latest-fashion-head h2 {
+  padding-top: 32px !important;
+  font-size: 3rem;
+  font-family: "Baskervville SC", serif;
+}
+
+.tranding-colthes-section {
+  padding: 2rem 1rem;
+  overflow-x: clip;
+}
+
+.tranding-heading {
+  padding: 2rem 1rem;
+}
+.tranding-heading h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.tranding-main-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  transition: transform 0.5s ease-in-out;
+  -ms-overflow-style: none !important;
+  /* Internet Explorer and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+}
+
+.tranding-clothe-box img {
+  max-width: 250px;
+  min-width: 250px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.slide-img-pricing-box p {
+  margin-bottom: 0;
+}
+
+.slide-img-pricing-box {
+  padding: 5px 0.5rem;
+}
+
+.catergory-main {
+  padding: 1rem 0rem;
+}
+.catergory-main .category-first-heading {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+.catergory-main .offer-main-row {
+  padding: 3rem 1rem;
+}
+.catergory-main .offer-main-row .siyaavar-main {
+  border: 2px solid orange;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.catergory-main .offer-main-row .siyaavar-main .see-offer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.catergory-main .offer-main-row .siyaavar-main .siyaavar-sub-main .first-sub-head {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.style-main {
+  font-family: "Baskervville SC", serif;
+  background-color: #FFF8DB;
+  padding: 3rem 0rem;
+}
+.style-main .style-main-heading {
+  padding: 2rem;
+}
+.style-main .style-main-heading h3 {
+  font-size: 3rem;
+  font-family: "Baskervville SC", serif;
+  color: orange;
+}
+.style-main .style-img-row {
+  padding: 2rem 1rem;
+}
+.style-main .style-img-row .style-box-img {
+  padding: 1rem;
+}
+.style-main .style-img-row .style-box-img img {
+  border-radius: 1rem;
+}
+.style-main .style-img-row .style-box-img .style-box-img-2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 25px;
+}
+.style-main .style-img-row .style-box-img .style-img-text-box {
+  padding: 1rem;
+}
+.style-main .style-img-row .style-box-img .style-img-text-box .style-text-1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Baskervville SC", serif;
+}
+.style-main .style-img-row .style-box-img .style-img-text-box .style-text-2 {
+  color: orange;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Baskervville SC", serif;
+}
+
+.new-arrival-section-main {
+  padding: 2rem 0rem;
+}
+.new-arrival-section-main .new-arrival-main-heading {
+  padding: 2rem;
+  text-align: center;
+}
+.new-arrival-section-main .new-arrival-main-heading h2 {
+  font-size: 2rem;
+}
+.new-arrival-section-main .new-arrival-main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+}
+.new-arrival-section-main .new-arrival-main-row .new-arrival-main-box .img-box-main img {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.home-main-footer {
+  padding: 2rem 1rem;
+  padding-bottom: 0;
+}
+.home-main-footer a {
+  text-decoration: none;
+  color: black;
+}
+.home-main-footer .first-row-footer {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+}
+.home-main-footer .first-row-footer .logo-box img {
+  max-width: 300px;
+}
+.home-main-footer .first-row-footer .right-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.home-main-footer .first-row-footer .right-text-box p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.home-main-footer .first-row-footer .right-text-box p input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+.home-main-footer .footer-column-main-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+}
+.home-main-footer .footer-column-main-row .footer-main-column {
+  min-width: 20%;
+  max-width: 20%;
+}
+.home-main-footer .footer-column-main-row .footer-main-column ul {
+  padding: 2rem 0.8rem;
+  list-style-type: none;
+}
+.home-main-footer .footer-column-main-row .footer-main-column ul li {
+  padding: 8px;
+}
+.home-main-footer .footer-column-main-row .footer-main-column .last-ul {
+  padding: 2rem 0rem;
+}
+.home-main-footer .footer-column-main-row .footer-main-column .last-ul li {
+  padding: 0;
+}
+.home-main-footer .footer-last-row {
+  border-top: 1px solid black;
+  text-align: center;
+}
+.home-main-footer .footer-last-row P {
+  margin-bottom: 5px;
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */
+
+
+
+/* 
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.carousel-item {
+  transition: transform 0.5s ease;
+} */
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+.carousel-item {
+  transition: transform 0.5s ease;
+}
+.section-content {
+  display: none;
+}
+.section-content.active {
+  display: block;
+}
+
+
+
+
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.dropdown-menu {
+  display: none;
+}
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+.offcanvas-body {
+  padding: 1rem;
+}
+
+
+
+
+
+/* ---------------------------------------------------------my code start-------------------------------------------------------- */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/* ---------------------------------------------------------my code end-------------------------------------------------------- */
+
+.footer-container {
+  background: #ffffff;
+  color: #4c5166;
+  padding: 45px 15px;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  margin-bottom: 45px;
+}
+
+.newsletter {
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+}
+
+.newsletter-input {
+  height: 50px;
+  border: 2px solid #cdcdcd;
+  flex: 1;
+}
+
+.newsletter-btn {
+  height: 50px;
+  padding: 0 20px;
+  background: #ffffff;
+  color: #06965c;
+  border: 2px solid #06965c;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-btn:hover {
+  background: #06965c;
+  color: #fff;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  margin-bottom: 30px;
+}
+
+.footer-about h3,
+.footer-links h3,
+.footer-contact h3 {
+  margin-bottom: 20px;
+  color: #FF9C1B;
+  font-size: 22px;
+}
+
+.footer-links a,
+.footer-contact p {
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+  color: #4c5166;
+  transition: 0.3s;
+}
+
+.footer-links a:hover,
+.footer-contact p:hover {
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 40px; */
+  /* or 267% */
+  /* letter-spacing: -0.03em; */
+  text-decoration-line: underline;
+
+  color: #FF9C1B;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #0085ff;
+}
+
+.footer-social a:hover {
+  color: #dddddd;
+}
+
+.footer-menu {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.f-menu a {
+  margin: 0 15px;
+  color: #4c5166;
+  text-transform: capitalize;
+}
+
+.f-menu a:hover {
+  color: #4c5166;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 30px 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+
+.footer-copyright a {
+  color: #4c5166;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-copyright a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+  }
+}
